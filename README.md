@@ -48,3 +48,24 @@
 	- Elevator tiles will be a peculiar case, as their shapes aren't exactly square. I will have to get crafty with css...
 	- All elevators will have a vertical corridor with a length of 3 tiles
 	- Ideally, clicking on a zone transition tile will lead to the map of the next zone (elevator tiles will recieve the same treatment)
+	
+ Also, a few tiles have been edited from vanilla to make randomizer more acessible :
+ 
+	- In red Brinstar, the bottom of red tower now has a platform to allow wall-jumping to escape from Norfair
+	- In Norfair, the Cathedral entrance has been modified to allow wall jumping to acess Cathedral without Hi-jump
+	
+----------------------------------------------------------------------------------------------------------------------------------------
+
+ After some thought and planning, and using VARIA's tracker, I have decided that just making a map would be kinda useless, since the tracker takes care of the aforementionned problems in a case by case fashion.
+ Therefore, I will instead write a beginner's guide to Super Metroid Randomizers, illustrated with said maps. It seems elusive at first, because of the random nature of the games.
+ However, there remain a few constants when playing, such as getting started on the seed, passing certain rooms, tricks to be used, and finally, the most important skill that comes into playing a randomizer, being able to analyse your current
+ items and what next checks they give you access to. Besides, a glossary containing most of the vocabulary used wouldn't hurt either
+ 
+ As for the maps, I have decided that they should stay, but more as an illustration tool than the main gig. I have also realized rather quickly that PHP would be very impractical for the purpose of an interactive map, so I will have to teach
+ myself some javascript for my map. It might also be best to use images for tiles instead of html blocks, because some of them are way too finneky.
+ The base framework still stands though, and hopefully will be taken into account by javascript if it can do OOP.
+ 
+ For this new goal, I will have to get started on creating a base site that will contain the articles and maps. I'm still undecisive on how to split guides, maps and tricks, and how to weave them together in some sort of coherent guide, but i can
+ already get started on the main aspect of the site, how it will look, function, and how an user can navigate through pages, articles, zones, etc...
+ I might also be able to write a few articles on practical advice, like how to randomize a ROM, what emulators to choose from, how to hook a controller to the emulator, etc... Although a lot of it will be refering to my personnal experience,
+ I can link external tutorials on the subjects.
